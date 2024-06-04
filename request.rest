@@ -1,0 +1,69 @@
+# User
+GET  http://localhost:5000/users
+
+###
+GET  http://localhost:5000/users/1
+
+###
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "nama_depan" : "Mohammad Andre",
+    "nama_belakang" : "Fatkhuramadhani",
+    "email" : "andre@gmail.com",
+    "level" : "admin",
+    "aktif" : "Y",
+    "password" : "Admin1019"
+}
+
+###
+PATCH  http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "nama_depan" : "Budiono",
+    "nama_belakang" : "Siregar",
+    "email" : "budionosiregar@gmail.com"
+}
+
+###
+DELETE  http://localhost:5000/users/2
+
+
+# Pengaduan
+###
+GET  http://localhost:5000/aduan/baru
+
+
+# Berita
+###
+GET  http://localhost:5000/berita
+
+###
+GET  http://localhost:5000/berita/3
+
+###
+POST  http://localhost:5000/berita
+Content-Type: application/json
+
+{
+    "judul" : "Aplikasi Pegduan Masyarakat",
+    "isi" : "Tanggap, aplikasi pengaduan masyarakat",
+    "foto" : "foto.jpg"
+}
+   
+###
+PATCH  http://localhost:5000/berita/1
+Content-Type: application/json
+
+{
+    "judul" : "KPU Kota Bandung sebut anggaran Pilkada 2024 sudah cair 100 persen",
+    "isi" : "Komisi Pemilihan Umum Kota Bandung, Jawa Barat, menyampaikan bahwa anggaran untuk penyelenggaraan Pemilihan Kepala Daerah Serentak 2024 sebesar Rp109 miliar dari pemerintah daerah setempat sudah cair 100 persen.",
+    "foto" : "cair.jpg"
+}
+
+
+###
+DELETE  http://localhost:5000/berita/2
+
