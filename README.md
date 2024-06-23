@@ -1,8 +1,8 @@
-# Tanggap Backend
+# Tanggap App Backend Source Code
 
-The Tanggap App's backend is nearly finished! <br>
-This repository holds all the behind-the-scenes logic that powers the app. <br>
-It will connect seamlessly with the [tanggap-public](https://github.com/ndrrmdhn/tanggap-public) frontend 
+This repository contains the backend code for the Tanggap App
+
+Click the following link to access our website: (http://202.10.41.84/) <br>
 
 Other repositories from Tanggap App:
 
